@@ -8,4 +8,3 @@ RUN  cp -rvf  online-movie-store/* .
 #RUN rm -f online-movie-store online-movie-store.zip
 EXPOSE 80
 CMD ["/usr/sbin/httpd", "-d" , "FOREGROUND"]
-
