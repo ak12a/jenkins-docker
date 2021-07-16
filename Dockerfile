@@ -1,5 +1,5 @@
 FROM centos:latest
-MAINTAINER Arvind Kumar
+MAINTAINER Arvind Kumara
 RUN yum update -y  && yum install -y zip unzip httpd
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page23/online-movie-store.zip /var/www/html/
 WORKDIR /var/www/html
