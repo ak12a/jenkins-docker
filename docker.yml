@@ -1,6 +1,0 @@
-- hosts: web
-  tasks: 
-     - name: Create a container 
-       shell: docker container run -dit --name web-server -p 8080:80  kr19/docker-jenkins
-
-       
